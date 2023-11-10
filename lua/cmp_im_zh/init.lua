@@ -1,6 +1,6 @@
 return {
     tables = function(names)
-        local dir = vim.fs.dirname(vim.api.nvim_get_runtime_file('lua/cmp_im_flypy/init.lua', false)[1])
+        local dir = vim.fs.dirname(vim.api.nvim_get_runtime_file('lua/cmp_im_zh/init.lua', false)[1])
         dir = vim.fs.dirname(vim.fs.dirname(dir))
         local tbls = { }
         for _,n in ipairs(names) do
